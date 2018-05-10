@@ -1,0 +1,18 @@
+{
+  "name": "bootstrap",
+  "version": "1.0.0",
+  "description": "学习bootstrap4",
+  "main": "jquery-2.1.1.js",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "browser-sync": "^2.24.4",
+    "popper.js": "^1.14.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "./node_modules/.bin/browser-sync start --server --no-notify --files='index.html, *.css, *.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
