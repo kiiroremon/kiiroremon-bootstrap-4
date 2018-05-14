@@ -12,15 +12,19 @@
 
 <body>
 
-    <div class="component demo" style="height: 300vh;">
-
-        <button class="btn btn-primary" data-toggle="tooltip" title="hello" data-placement="right">
-            Tooltip
-        </button>
-
-
-
-
+    <div class="component demo">
+        <a href="#collapse-demo" 
+            class="btn btn-primary"
+            data-toggle="collapse">action link</a>
+        <button 
+            class="btn btn-primary"
+            data-toggle="collapse"
+            data-target="#collapse-demo">action button</button>    
+        <div class="collapse" id="collapse-demo">
+            <div class="card card-body">
+                hello
+            </div>
+        </div>
 
 
 
@@ -28,8 +32,8 @@
 
 
     <script src="./node_modules/jquery-2.1.1.js"></script>
-    <script src="./node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/popper.js@1.14.3/dist/umd/popper.min.js"></script>
     <script src="./script.js" charset="UTF-8"></script>
 </body>
 
